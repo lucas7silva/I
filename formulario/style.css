@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+body{
+    margin-left: 40%;
+    background-color: rgb(177, 189, 199);
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#main{
+    background-color: rgb(212, 212, 229);
+}
+
+#titulo {
+    font-family: sans-serif;
+    margin-left: 10.5%;
+    
+}
+
+#subtitulo {
+   margin-left: 14.5%;
+   margin-top: 1%;
+   margin-bottom: 1%;
+}
+fieldset {
+    
+   display: flex;
+    float: left;
+   box-shadow: 3px 3px 8px 2px ;
+}
+.campo
+{
+    margin-bottom: 10%;
+    margin-top: 7%;
+    width: 100%;
+    
+}
+
+
+#categoria{ 
+    resize: none;
+    
+}
+
+
+#btn-calcu{
+    margin-left:20%;
+    padding: 2%;
+    
+}
+#btn-limpar{
+    margin-left:14%;
+    padding: 2%;
+}

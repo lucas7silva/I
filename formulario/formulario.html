@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <script src="java.js"> </script>
+
+    <h1 id="titulo">TESTE IMC</h1>
+    <p id="subtitulo">FORMULARIO</p>
+    <form >
+
+        <fieldset>
+        <section id="main">
+            <div class="campo">
+                <label for="peso">PESO (kg)</label>
+                <input type="number" required id="peso-n">
+            </div>
+            <div class="campo">
+                <label for="altura">ALTURA (cm)</label required>
+                <input type="number" id="altura">
+            </div>
+            <div class="campo">
+                <label for="sexo">SEXO</label>
+                <label for="f">
+                    <input type="radio" name="F" value="F" required id="F"> F
+                </label>
+                <LAbel for="M">
+                    <input type="radio" name="F" value="M" id="m"> M
+                </Label>
+            </div>
+            <div class="campo">
+                <label>RESULTADO</label>
+                <input type="number" id="RESULTADO">
+
+            </div>
+
+            <div class="campo">
+                <label for="categoria">CATEGORIA</label>
+                <br>
+                <textarea name="categoria" id="categoria" cols="45" rows="6"></textarea>
+                </div>
+
+                <div class="campo">
+                    <button type="submit" id="btn-calcu">CALCULAR </button> 
+                    <button type="reset" id="btn-limpar">LIMPAR </button>
+                </div>
+          </section>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
